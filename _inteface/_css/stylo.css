@@ -9,14 +9,20 @@ header{
    background-color: white;
     margin: 10px 450px 0px 450px;
     text-align: center;
-    border-radius:   6px ;
+    border-radius:   solid 3px ;
     left: -300px;
     width: auto ;
     padding: auto;
     box-shadow: 2px 2px 8px rgba(78, 78, 143, 0.52);
 }
 div#Menu {
-
+ display: inline-block;
+}
+nav#caberario {
+border-bottom: 2px 2px;
+}
+div#Menu h1 {
+display: none;
 }
 main#Principal {
 
