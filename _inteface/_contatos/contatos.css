@@ -1,0 +1,15 @@
+body{ text-align: center;
+     margin: 20px;
+    width: 1200px;
+background-image: url(_fotoscont/logodelivery.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: contain ;
+
+}
+h1,h2{
+    color: black
+    text-align: center;
+    text-decoration: underline;
+
+}
