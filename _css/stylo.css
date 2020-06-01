@@ -1,0 +1,63 @@
+
+
+body{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 20px;
+    width: 1200px;
+    margin: 10 30 0 30;
+    background-image: url(_fotoscss/frutas_legumes.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+h1 {
+    text-align: center;
+    border: solid 10px rgb(189, 155, 129) ;
+    padding: 4px;
+    height: auto;
+    margin: 55px auto;
+    width: 45%;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+div#Menu h1 {
+ display: none;
+ 
+}
+nav#cabecario ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+nav#cabecario li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 6px;
+    margin: 2px;
+    transform:3s ;
+}
+nav#cabecario li :hover  {
+background-color: #606060;
+}
+nav#cabecario a {
+    color: black;
+    text-decoration: none;
+}
+nav#cabecario a :hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main#Principal {
+
+}
+article#Sobre1 {
+
+}
+article#Sobre2 {
+
+}
