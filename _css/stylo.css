@@ -6,7 +6,7 @@ body{
     margin: 20px;
     width: 1200px;
     margin: 10 30 0 30;
-    background-image: url(_fotoscss/frutas_legumes.png);
+    background-image: url(frutas_legumes.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
    background-size: cover;
@@ -56,8 +56,32 @@ main#Principal {
 
 }
 article#Sobre1 {
+    font-size: 20px;
+line-height: 1.5;
+text-align: justify;
 
 }
 article#Sobre2 {
-
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5px;
+    text-align: justify;
 }
+article#Sobre2 img{
+    border:  7px solid saddlebrown;
+    box-shadow: 2px 2px 4px black;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+img.bancada-png{
+float:  left ;
+margin: 15px;
+}
+img.alimentacao-saudavel{
+    float: right;
+    margin: 15px;
+}
+
+

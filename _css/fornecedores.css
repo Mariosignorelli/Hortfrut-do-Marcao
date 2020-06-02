@@ -1,0 +1,10 @@
+body{
+    font-size: 28px;
+    text-align: center;
+        line-height: 1.5;
+    background-image: url(hortimix.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
