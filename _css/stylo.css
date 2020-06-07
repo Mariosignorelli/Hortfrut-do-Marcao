@@ -47,7 +47,6 @@ nav#cabecario a {
     color: black;
     text-decoration: none;
 }
-nav#cabecario a :hover{
     color: white;
     text-decoration: underline;
 }
