@@ -31,7 +31,7 @@ nav#cabecario ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 320px;
 }
 nav#cabecario li {
     display: inline-block;
@@ -40,12 +40,13 @@ nav#cabecario li {
     margin: 2px;
     transform:3s ;
 }
-nav#cabecario li :hover  {
+nav#cabecario li:hover  {
 background-color: #606060;
 }
 nav#cabecario a {
     color: black;
     text-decoration: none;
+    margin: 10px left;
 }
 nav#cabecario a:hover{
     color: white;
@@ -68,12 +69,16 @@ article#Sobre2 {
     text-align: justify;
 }
 article#Sobre2 img{
+   
+    width: 400px;
     border:  7px solid saddlebrown;
     box-shadow: 2px 2px 4px black;
 }
 footer {
-    text-align: center;
-    font-size: 14px;
+    margin-top: 15px;
+   float: left;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 img.bancada-png{
 float:  left ;
@@ -82,6 +87,7 @@ margin: 15px;
 img.alimentacao-saudavel{
     float: right;
     margin: 15px;
+    border: solid 4px rgba(143, 107, 90, 0.726);
 }
 
 
